@@ -4,7 +4,7 @@ title: AI Assistance
 
 # AI Assistance
 
-The extension can use language and vision-language models to suggest alt text or headings.
+The extension can use language and vision-language models to generate table captions and alt text respectively.
 
 ## Configuration
 - Open `Settings > Settings Editor > A11y Checker Settings` in JupyterLab.
@@ -15,5 +15,5 @@ Do not include sensitive data in notebooks. API calls are user-configured.
 ```
 
 ## Scope
-- Suggestions appear within certain fix interfaces (e.g., image alt text).
-- Users review and edit suggestions before applying.
+- Suggestions appear only when the AI option is enabled in certain “fix interfaces” such as table caption and alt-text generation
+- Users review AI suggestions and make edits if required before applying those changes to the notebook
