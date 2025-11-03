@@ -19,14 +19,17 @@ Repository: [Jupyterlab-a11y-checker on GitHub](https://github.com/berkeley-dsep
 The extension detects accessibility issues in a notebook and provides notebook authors with assistance to fix those issues.
 ```
 
-The extension focuses on the following issues,
-- Missing Alternative Text (Alt Text) for images in Markdown cells.
-- Notebook Lacks a Primary Heading (H1), which should serve as the notebook's main title.
-- Multiple H1 Headings present in the notebook (should only be one for the title).
-- Duplicate Heading Text across different sections of the notebook.
-- Empty Heading elements (e.g., ## ) identified.
-- Missing Table Headers (row or column headers) in Markdown tables.
-- Missing Table Caption to summarize the table's content.
-- Missing Table Scope attributes for table headers, required for complex data tables.
-- Insufficient Color Contrast for text within images or image outputs.
-- Indiscernible Link Text (e.g., "click here," or bare URLs) in Markdown cells.
+The extension focuses on the following issues:
+
+* **Missing Alternative Text (Alt Text)** for images in Markdown cells.
+* **Notebook Lacks a Primary Heading (H1)**, which should serve as the notebook's main title.
+* **Multiple H1 Headings** present in the notebook (should only be one for the title).
+* **Duplicate Heading Text** across different sections of the notebook.
+* **Empty Heading** elements (e.g., `##` ) identified.
+* **Missing Table Headers** (row or column headers) in Markdown tables.
+* **Missing Table Caption** to summarize the table's content.
+* **Missing Table Scope attributes** for table headers, required for complex data tables.
+* **Insufficient Color Contrast** for text within images or image outputs.
+* **Indiscernible Link Text** (e.g., "click here," or bare URLs) in Markdown cells.
+
+You can read more about these issues in the [rules page](https://a11y-checker-guide.datahub.berkeley.edu/rules/)

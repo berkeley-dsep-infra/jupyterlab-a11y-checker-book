@@ -2,9 +2,6 @@
 title: Rules Overview
 ---
 
-```{contents}
-```
-
 This section summarizes the categories checked by the extension and maps them to WCAG 2.1 AA.
 
 ## Image
