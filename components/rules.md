@@ -2,9 +2,6 @@
 title: Rules Overview
 ---
 
-(rules-index)=
-# Rules Overview
-
 ```{contents}
 ```
 
@@ -48,6 +45,13 @@ This section summarizes the categories checked by the extension and maps them to
 | 4a  | color-insufficient-cc-normal | Ensure normal text in images have a contrast ratio of 4.5:1 and text contrast in general | WCAG 1.4.3 |
 | 4b  | color-insufficient-cc-large  | Ensure large text in images have a contrast ratio of 3:1                                 | WCAG 1.4.3 |
 
+---
+
+## Links
+
+| No. | Rule ID                      | Description                                                                              | WCAG       |
+| --- | ---------------------------- | ---------------------------------------------------------------------------------------- | ---------- |
+| 4a  | link-discernible-text | Ensure that the purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context | WCAG 2.4.4 |
 ---
 
 ```{admonition} Additional checks
