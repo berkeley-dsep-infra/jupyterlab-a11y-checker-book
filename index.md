@@ -10,7 +10,7 @@ JupyterLab-A11y-Checker is a JupyterLab extension that helps authors detect and 
 - Apply targeted fixes to those issues via guided interfaces (see [Fix Interfaces](components/fix#fix-ui-index)).
 - Optionally use AI assistance (LLM / VLM) to draft suggestions for certain usecases.
 
-Repository: [jupyterlab-a11y-checker on GitHub](https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker)
+Repository: [Jupyterlab-a11y-checker on GitHub](https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker)
 
 ```{figure} images/overview.png
 :name: fig-overview
@@ -19,10 +19,14 @@ Repository: [jupyterlab-a11y-checker on GitHub](https://github.com/berkeley-dsep
 The extension detects accessibility issues in a notebook and provides notebook authors with assistance to fix those issues.
 ```
 
-## Components
-- [Rules](components/rules)
-- [Fix Interfaces](components/fix)
-- [AI Assistance](components/ai-assistance)
-
-## More
-- [Examples Intro](examples/intro)
+The extension focuses on the following issues,
+- Missing Alternative Text (Alt Text) for images in Markdown cells.
+- Notebook Lacks a Primary Heading (H1), which should serve as the notebook's main title.
+- Multiple H1 Headings present in the notebook (should only be one for the title).
+- Duplicate Heading Text across different sections of the notebook.
+- Empty Heading elements (e.g., ## ) identified.
+- Missing Table Headers (row or column headers) in Markdown tables.
+- Missing Table Caption to summarize the table's content.
+- Missing Table Scope attributes for table headers, required for complex data tables.
+- Insufficient Color Contrast for text within images or image outputs.
+- Indiscernible Link Text (e.g., "click here," or bare URLs) in Markdown cells.
